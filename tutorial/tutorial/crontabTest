@@ -1,0 +1,2 @@
+# show a sentence every minute
+* * * * * echo heheda >> /Users/wei/Documents/dawanfan/tutorial/cron.txt
