@@ -38,8 +38,7 @@
 ?>
 	<tr>  
 	  <td><?= $row['id']?></td>
-	  <!-- <td><?= $row['title']?></td> -->
-	  <td><a href= <?= $row['link']?> target="_blank">link</a></td>
+	  <td><a href= <?= $row['link']?> target="_blank"><?= $row['title']?></a></td>
 	  <td><?= $row['zhubo']?></td>  
 	  <td><?= $row['view']?></td>
 	  <td><?= $row['web']?></td>
