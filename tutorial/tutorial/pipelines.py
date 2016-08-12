@@ -21,7 +21,8 @@ class TutorialPipeline(object):
 
 class MysqlPipeline(object):
 	def __init__(self):
-		self.db = MySQLdb.connect("localhost","root","root","zhibo",charset ='utf8',use_unicode=True)
+		self.db = MySQLdb.connect("localhost","root","root","zhibo")
+		# ,charset ='utf8',use_unicode=True
 		self.cursor = self.db.cursor()
 		# self.cursor.execute("DROP TABLE IF EXISTS HearthStones")
 		# sql = """CREATE TABLE HearthStones (
