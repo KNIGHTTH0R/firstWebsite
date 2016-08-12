@@ -7,6 +7,8 @@ function dbConnect() {
 	}
 	echo "Server connected successfully<br>";
 
+	mysqli_set_charset($conn,"utf8");
+
 	$sql = "USE zhibo";
 	if ($conn->query($sql) == TRUE) {
 	    echo "Database connected successfully<br>";

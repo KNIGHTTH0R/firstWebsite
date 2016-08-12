@@ -26,8 +26,9 @@
 <table width=50% border="0" align="center" cellpadding="5" cellspacing="1" border=0>  
 	<tr bgcolor="#eff3ff">  
 	  <td> id </td>
-	  <td> name </td>
-	  <td> created time </td>
+	  <td> title </td>
+	  <td> zhubo </td>
+	  <td> view </td>
 	  <!-- <td> last modified time </td> -->
 	</tr>
 <?php
