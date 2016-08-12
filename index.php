@@ -23,7 +23,7 @@
 	$conn = dbConnect();
 ?> 
 <!-- 显示直播的表格 -->
-<table width=90% border="0" align="center" cellpadding="5" cellspacing="1" border=0>  
+<table width=70% border="0" align="center" cellpadding="5" cellspacing="1" border=0>  
 	<tr bgcolor="#eff3ff">  
 	  <td> id </td>
 	  <td> title </td>
