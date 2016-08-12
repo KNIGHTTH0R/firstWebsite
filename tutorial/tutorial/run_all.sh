@@ -1,7 +1,7 @@
 #!/bin/sh
 export PATH=$PATH:/usr/local/bin
-cd /Users/wei/Documents/dawanfan/tutorial/
-python /Users/wei/Documents/dawanfan/tutorial/tutorial/reset.py
+cd /var/www/html/firstWebsite/tutorial/
+python /var/www/html/firstWebsite/tutorial//tutorial/reset.py
 scrapy crawl huya
 scrapy crawl douyu
 scrapy crawl panda
