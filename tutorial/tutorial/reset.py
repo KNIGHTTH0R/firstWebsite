@@ -13,5 +13,5 @@ sql = """CREATE TABLE HearthStones (
          web CHAR(20),
          cate CHAR(20),
          # active BOOLEAN,
-         PRIMARY KEY (id) )"""
+         PRIMARY KEY (id) )ENGINE=InnoDB DEFAULT CHARSET=utf8;"""
 cursor.execute(sql)
