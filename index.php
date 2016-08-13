@@ -32,7 +32,7 @@
 	  <td> web </td>
 	</tr>
 <?php
-	$sql = "SELECT * FROM HearthStones";
+	$sql = "SELECT * FROM HearthStones ORDER BY view DESC;";
 	$result = $conn->query($sql);
 	while($row = $result->fetch_assoc()) {
 ?>
