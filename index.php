@@ -38,6 +38,7 @@
 ?>
 	<tr>  
 	  <td><?= $row['id']?></td>
+	  <!-- 在新窗口打开链接 -->
 	  <td><a href= <?= $row['link']?> target="_blank"><?= $row['title']?></a></td>
 	  <td><?= $row['zhubo']?></td>  
 	  <td><?= $row['view']?></td>
