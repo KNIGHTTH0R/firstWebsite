@@ -1,9 +1,10 @@
 import scrapy
-
+from tutorial.func import WebFunc
 from tutorial.items import ZhiboItem
 
 class HuyaSpider(scrapy.Spider):
     name = "huya"
+    webFunc = WebFunc()
     start_urls = [
         "http://www.huya.com/g/hearthstone"
     ]
@@ -14,7 +15,7 @@ class HuyaSpider(scrapy.Spider):
             item['title'] = sel.xpath('div/a/text()').extract()[0]
             item['link'] = sel.xpath('a/@href').extract()[0]
             num = sel.xpath('span[@class ="txt all_live_txt"]/span[@class="num"]/i/text()').extract()[0]
-            item['view'] = num
+            item['view'] = self.webFunc.getNum(num)
             item['img_url'] = sel.xpath('a//img/@src').extract()[0]
             item['zhubo'] = sel.xpath('a//img/@title').extract()[0]
             item['web'] = "huya"
