@@ -11,17 +11,12 @@ div.content img {
     height: auto;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
 * {
     box-sizing: border-box;
 }
 
 .responsive {
-    padding: 0 10px 15px 0;
+    padding: 0 10px 25px 0;
     float: left;
     width: 20%;
 }
@@ -47,22 +42,22 @@ div.desc {
 }
 
 .text{
-  font-size: 0.5em;
-  padding: 10px;
+    font-size: 0.5em;
+    padding: 10px;
 }
 .title{
- float: left;
- text-align:left;
- width: 80%;
+    float: left;
+    text-align:left;
+    width: 80%;
 }
 .cate{
- float: right;
+    float: right;
 }
 .zhubo{
- float: left;
- text-align:left;
- width: 80%;
+    float: left;
+    text-align:left;
+    width: 80%;
 }
 .view{
- float: right;
+    float: right;
 }
