@@ -25,6 +25,7 @@
 }
 .content-grid img{
 	display:block;
+	width: 20%;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
