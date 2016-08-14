@@ -20,7 +20,7 @@
 				while($row = $result->fetch_assoc()) {
 			?>
 		    <div class="content-grid">
-		    	<a href=<?= $row['link']?> target="_blank" title="name">
+		    	<a href=<?= $row['link']?> target="_blank" title=<?= $row['web']?>>
 		    		<img src=<?= $row['img_url']?>/>
 					<div class="title">
 				        <?= $row['title']?>
@@ -40,6 +40,6 @@
 				}//while end
 			?>
 		</div>
-		
+
 	</body>
 </html>
