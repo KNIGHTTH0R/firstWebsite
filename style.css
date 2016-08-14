@@ -4,9 +4,8 @@
 	float: right;
 }
 .content-grid{
-	width: 23%;
+	width: 20%;
 	float: left;
-	text-align: center;
 	border: 1px solid rgba(235, 235, 235, 0.53);
 	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.35);
 	margin-right:2%;
@@ -18,21 +17,13 @@
 .last-grid{
 	margin-right:0px;
 }
-.content-grid h3{
-	color: #888;
-	text-transform: uppercase;
-	padding: 10px 0;
-	display: block;
-	line-height: 1.0em;
-	font-size: 0.3em;
-}
 .content-grid img{
 	display:block;
 	width: 100%;
 	border-radius: 8px;
 }
 .text{
-  font-size: 0.3em;
+  font-size: 0.5em;
   padding: 10px;
 }
 .title{
