@@ -20,7 +20,7 @@
 
 		<div class="responsive">
 		 	<div class="content">
-		    	<a target="_blank" href=<?= $row['link']?> title=<?= $row['cate']?>>
+		    	<a target="_blank" href=<?= $row['link']?>>
 		     		<img src=<?= $row['img_url']?>>
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
