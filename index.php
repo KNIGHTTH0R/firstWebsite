@@ -15,13 +15,13 @@
 		<!-- 显示直播信息 -->
 		<div class="right-content">
 			<?php
-				$sql = "SELECT * FROM HearthStones ORDER BY view DESC;";
+				$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
 				$result = $conn->query($sql);
 				while($row = $result->fetch_assoc()) {
 			?>
 		    <div class="content-grid">
 		    	<a href=<?= $row['link']?> target="_blank" title=<?= $row['web']?>>
-		    		<img src=<?= $row['img_url']?>/>
+		    		<img src=<?= $row['img_url']?>>
 					<div class="title">
 				        <?= $row['title']?>
 				    </div>
