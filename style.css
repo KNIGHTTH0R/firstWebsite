@@ -1,8 +1,8 @@
-.right-content{
+/*.right-content{
 	padding:0 18px;
 	width: 80%;
 	float: right;
-}
+}*/
 /*.content-grid{
 	width: 20%;
 	float: right;
@@ -17,14 +17,19 @@
     width: 20%;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1200px){
     .content-grid {
-        width: 30%;
-        margin: 6px 0;
+        width: 25%;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
+    .content-grid {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 400px){
     .content-grid {
         width: 50%;
     }
