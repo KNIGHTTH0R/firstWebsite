@@ -1,12 +1,12 @@
-div.img {
+div.content {
     border: 1px solid #ccc;
 }
 
-div.img:hover {
+div.content:hover {
     border: 1px solid #777;
 }
 
-div.img img {
+div.content img {
     width: 100%;
     height: auto;
 }
@@ -46,8 +46,23 @@ div.desc {
     }
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+.text{
+  font-size: 0.5em;
+  padding: 10px;
+}
+.title{
+ float: left;
+ text-align:left;
+ width: 80%;
+}
+.cate{
+ float: right;
+}
+.zhubo{
+ float: left;
+ text-align:left;
+ width: 80%;
+}
+.view{
+ float: right;
 }

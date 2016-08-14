@@ -17,14 +17,21 @@
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
 		?> 		
-		
+
 		<div class="responsive">
-		  <div class="img">
-		    <a target="_blank" href=<?= $row['link']?>>
-		      <img src=<?= $row['img_url']?>>
-		    </a>
-		    <div class="desc"><?= $row['title']?></div>
-		  </div>
+		 	<div class="content">
+		    	<a target="_blank" href=<?= $row['link']?> title=<?= $row['cate']?>>
+		     		<img src=<?= $row['img_url']?>>
+		    		<div class="text">
+						<div class="title"><?= $row['title']?></div>
+					    <div class="cate"><?= $row['web']?></div>
+					</div>
+					<div class="text">
+						<div class="zhubo"><?= $row['zhubo']?></div>
+					    <div class="view"><?= $row['view']?></div>
+					</div>		     		
+		   		</a>
+			</div>
 		</div>
 
 		<?php
