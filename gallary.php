@@ -21,14 +21,25 @@
 		<div class="responsive">
 		 	<div class="content">
 		    	<a target="_blank" href=<?= $row['link']?>>
-		     		<img src=<?= $row['img_url']?> width="320" height="180">
+		    		<div class="image-container">
+		     			<img src=<?= $row['img_url']?>>
+		     		</div>	
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
 					    <div class="cate"><?= $row['web']?></div>
 					</div>
 					<div class="text">
 						<div class="zhubo"><?= $row['zhubo']?></div>
-					    <div class="view"><?= $row['view']?></div>
+					    <div class="view">
+					    	<?php 
+			                    $i = $row['view'];
+			                    if ($i >= 10000) {
+			                        echo round(($i/10000),1).'万';
+			                    } else {
+			                        echo $i;
+			                    }
+					    	?>
+					    </div>
 					</div>		     		
 		   		</a>
 			</div>
