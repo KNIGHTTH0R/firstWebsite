@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1200px){
     .content-grid {
-        width: 25%;
+        width: 24%;
     }
 }
 
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 400px){
     .content-grid {
-        width: 50%;
+        width: 49%;
     }
 }
 .content-grid:hover{
