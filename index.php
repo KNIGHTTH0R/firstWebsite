@@ -20,14 +20,14 @@
 				while($row = $result->fetch_assoc()) {
 			?>
 		    <div class="content-grid">
-		    	<a href=<?= $row['link']?> target="_blank" title=<?= $row['web']?>>
+		    	<a href=<?= $row['link']?> target="_blank" title=<?= $row['cate']?>>
 		    		<img src=<?= $row['img_url']?>>
 		    		<div class="text">
 						<div class="title">
 					        <?= $row['title']?>
 					    </div>
 					    <div class="cate">
-					        炉石传说
+					        <?= $row['web']?>
 					    </div>
 					</div>
 					<div class="text">
