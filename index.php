@@ -22,18 +22,22 @@
 		    <div class="content-grid">
 		    	<a href=<?= $row['link']?> target="_blank" title=<?= $row['web']?>>
 		    		<img src=<?= $row['img_url']?>>
-					<div class="title">
-				        <?= $row['title']?>
-				    </div>
-				    <div class="cate">
-				        炉石传说
-				    </div>
-					<div class="zhubo">
-				        <?= $row['zhubo']?>
-				    </div>
-				    <div class="view">
-				        <?= $row['view']?>
-				    </div> 
+		    		<div class="text">
+						<div class="title">
+					        <?= $row['title']?>
+					    </div>
+					    <div class="cate">
+					        炉石传说
+					    </div>
+					</div>
+					<div class="text">
+						<div class="zhubo">
+					        <?= $row['zhubo']?>
+					    </div>
+					    <div class="view">
+					        <?= $row['view']?>
+					    </div>
+					</div>
 			    </a>
 		    </div>
 			<?php
