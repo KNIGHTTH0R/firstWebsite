@@ -5,13 +5,13 @@ function dbConnect() {
 	    die("Connection failed: " . $conn->connect_error);
 	    return false;
 	}
-	echo "Server connected successfully<br>";
+	// echo "Server connected successfully<br>";
 
 	mysqli_set_charset($conn,"utf8");
 
 	$sql = "USE zhibo";
 	if ($conn->query($sql) == TRUE) {
-	    echo "Database connected successfully<br>";
+	    // echo "Database connected successfully<br>";
 	} else {
 	    echo "Error connecting database: " . $conn->error . "<br>";
 	    return false;
