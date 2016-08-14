@@ -21,7 +21,7 @@
 		<div class="responsive">
 		 	<div class="content">
 		    	<a target="_blank" href=<?= $row['link']?>>
-		     		<img src=<?= $row['img_url']?>>
+		     		<img src=<?= $row['img_url']?> width="320" height="180">
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
 					    <div class="cate"><?= $row['web']?></div>
