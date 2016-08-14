@@ -38,6 +38,7 @@
 					        <?= $row['view']?>
 					    </div>
 					</div>
+					<div class="text"></div>
 			    </a>
 		    </div>
 			<?php
