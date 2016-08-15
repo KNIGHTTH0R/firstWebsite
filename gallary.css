@@ -59,7 +59,7 @@ div.image-container {
     width: 80%;
     font-weight:bold;
     font-size: 0.8em;
-    color: #ffffff;
+    color: #000000;
 }
 .web{
     float: right;
@@ -73,5 +73,5 @@ div.image-container {
 }
 .view{
     float: right;
-    color: #888888;
+    color: #ff7733;
 }
