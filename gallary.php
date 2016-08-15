@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Gallary</title>
+		<title>直播信息汇总（测试版）</title>
 		<link href="gallary.css" rel="stylesheet" type="text/css"  media="all" />
 	</head>
 	<body>
