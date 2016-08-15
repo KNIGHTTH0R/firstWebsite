@@ -12,10 +12,10 @@
 		<!-- google translate -->
 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
-		  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+		  new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,es,ja,ko,zh-CN,zh-TW', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        
+       
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
