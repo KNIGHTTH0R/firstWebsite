@@ -60,6 +60,9 @@ div.image-container {
     font-weight:bold;
     font-size: 1.8em;
     color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .web{
     float: right;
