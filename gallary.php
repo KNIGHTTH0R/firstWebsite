@@ -26,7 +26,7 @@
 		     		</div>	
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
-					    <div class="cate"><?= $row['web']?></div>
+					    <div class="web"><?= $row['web']?></div>
 					</div>
 					<div class="text">
 						<div class="zhubo"><?= $row['zhubo']?></div>
