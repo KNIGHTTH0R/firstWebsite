@@ -24,19 +24,16 @@ body {
 .top-nav{
     float:left;
 }
-.top-nav ul
-{
+.top-nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
     overflow:hidden;
 }
-.top-nav li
-{
+.top-nav li{
     float:left;
 }
-.top-nav a
-{
+.top-nav a{
     font-size: 20px;
     display:block;
     color:#eee;
@@ -46,7 +43,10 @@ body {
 }
 .top-nav ul li a:hover
 {
-    background-color:#ff1111;
+    background-color:#ed1941;
+}
+.google_translate_element {
+    float:right;
 }
 .top-blank {
   padding-top:50px;
