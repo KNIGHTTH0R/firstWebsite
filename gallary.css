@@ -40,7 +40,7 @@ body {
     font-size: 20px;
     display:block;
     font-weight:bold;
-    color:#464547;
+    color:#eee;
     padding:10px;
     text-decoration:none;
     text-transform:uppercase;
@@ -50,7 +50,7 @@ body {
     background-color:#ff1111;
 }
 .top-blank {
-  padding-top:40px;
+  padding-top:50px;
 }
 /*---side bar---*/
 .sidebar{
