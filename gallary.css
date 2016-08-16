@@ -4,8 +4,10 @@ body {
 }
 /*----header----*/
 .header{
-    background-color: #f2eada;
-    padding: 10px 0 50px 0;
+    background-color: #000;
+    height:40px;
+    position:fixed;
+    width:100%;
 }
 .logo{
     float:left;
@@ -35,7 +37,7 @@ body {
 }
 .top-nav a
 {
-    font-size: 25px;
+    font-size: 20px;
     display:block;
     font-weight:bold;
     color:#464547;
@@ -45,8 +47,17 @@ body {
 }
 .top-nav ul li a:hover
 {
-    color:#973c3f;
+    background-color:#ff1111;
 }
+.top-blank {
+  padding-top:40px;
+}
+/*---side bar---*/
+.sidebar{
+    float:left;
+    width: 10%;
+}
+
 
 /*-----lives----*/
 div.content {

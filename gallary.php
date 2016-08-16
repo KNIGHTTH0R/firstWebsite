@@ -27,10 +27,7 @@
 			<!---End-top-menu-search-->
 		</div>
 		<!---End-header-->
-		
-
-
-
+		<div class="top-blank"></div>
 		<!-- google translate -->
 <!-- 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
@@ -38,6 +35,10 @@
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
  -->
+ 		<div class="sidebar">
+
+ 		</div>	
+
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
