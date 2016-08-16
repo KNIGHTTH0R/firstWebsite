@@ -1,3 +1,66 @@
+/*----header----*/
+.logo{
+    float:left;
+    padding-top: 8px;
+}
+.top-menu{
+    float:right;
+    width: 71%;
+    padding-top: 6px;
+}
+.top-nav{
+    float:left;
+}
+.top-nav ul li{
+    display:inline-block;
+}
+.top-nav ul li a{
+     font-family: 'gandhi_sansregular';
+    color: #888;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    display: block;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.top-nav ul li a:hover{
+    color:#000;
+}
+.search{
+    float: left;
+    width: 20%;
+    padding-top: 0.3em;
+}
+.search input[type="text"]{
+    width: 83.5%;
+    padding: 10px;
+    float: left;
+    border: 1px solid rgba(85, 85, 85, 0.15);
+    border:none;
+    outline:none;
+    font-family: 'gandhi_sansregular';
+    color: #888;
+}
+.search input[type="submit"]{
+    background: url(../images/search-icon.png) no-repeat 46% 46% #000;
+    padding: 10px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    color: #FFF;
+    outline: none;
+    font-family: 'gandhi_sansregular';
+    text-transform: uppercase;
+}
+.search input[type="submit"]:hover{
+    color:#888;
+}
+
+/*-----lives----*/
 div.content {
     padding-bottom: 10px;
     border: 1px solid #ccc;

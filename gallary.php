@@ -6,8 +6,38 @@
 		<link href="gallary.css" rel="stylesheet" type="text/css"  media="all" />
 	</head>
 	<body>
+		<!---start-header-->
+		<div class="header">
+			<!---start-logo-->
+			<div class="logo">
+				<a href="gallary.php"><img src="images/logo.png" title="Live is on" /></a>
+			</div>
+			<!---End-logo-->
+			<!---start-top-menu-search-->
+			<div class="top-menu">
+				<div class="top-nav">
+					<ul>
+						<li><a href="gallary.php">首页</a></li>
+						<li><a href="#">全部直播</a></li>
+						<li><a href="＃">分类</a></li>
+						<li><a href="＃">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<form>
+						<input type="text" class="textbox" value="Search:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+						<input type="submit" value=" " />
+					</form>
+				</div>
+				<!-- <div class="clear"> </div> -->
+			</div>
+			<!-- <div class="clear"> </div> -->
+			<!---End-top-menu-search-->
+		</div>
+		<!---End-header-->
+		
 
-		<h2>HearthStone</h2>
+
 
 		<!-- google translate -->
 		<div id="google_translate_element"></div><script type="text/javascript">
@@ -15,7 +45,7 @@
 		  new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,es,ja,ko,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-              
+
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
