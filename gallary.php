@@ -19,8 +19,8 @@
 					<ul>
 						<li><a href="gallary.php">首页</a></li>
 						<li><a href="#">全部直播</a></li>
-						<li><a href="＃">分类</a></li>
-						<li><a href="＃">联系我们</a></li>
+						<li><a href="#">分类</a></li>
+						<li><a href="#">联系我们</a></li>
 					</ul>
 				</div>
 				<div class="search">
@@ -40,12 +40,12 @@
 
 
 		<!-- google translate -->
-		<div id="google_translate_element"></div><script type="text/javascript">
+<!-- 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
 		  new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'en,es,ja,ko,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+ -->
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
