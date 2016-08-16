@@ -10,7 +10,7 @@
 		<div class="header">
 			<!---start-logo-->
 			<div class="logo">
-				<a href="gallary.php"><img src="images/logo.png" title="Live is on" /></a>
+				<a href="gallary.php"><img src="images/logo.png" title="Live is on"></a>
 			</div>
 			<!---End-logo-->
 			<!---start-top-menu-search-->
@@ -23,15 +23,7 @@
 						<li><a href="#">联系我们</a></li>
 					</ul>
 				</div>
-				<div class="search">
-					<form>
-						<input type="text" class="textbox" value="Search:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-						<input type="submit" value=" " />
-					</form>
-				</div>
-				<!-- <div class="clear"> </div> -->
 			</div>
-			<!-- <div class="clear"> </div> -->
 			<!---End-top-menu-search-->
 		</div>
 		<!---End-header-->

@@ -4,6 +4,10 @@
     width: 10%;
     text-align: center;
 }
+.logo img{
+    height: 30px;
+    width: auto;   
+}
 .top-menu{
     float:right;
     width: 90%;
