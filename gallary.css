@@ -4,7 +4,7 @@ body {
 }
 /*----header----*/
 .header{
-    background-color: #f2eada;
+    /*background-color: #eee;*/
     padding: 10px 0 50px 0;
 }
 .logo{
@@ -50,7 +50,7 @@ body {
 
 /*-----lives----*/
 div.content {
-    padding-bottom: 10px;
+    padding-top: 10px;
     border: 1px solid #ccc;
 }
 
