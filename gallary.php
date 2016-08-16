@@ -37,10 +37,13 @@
 		<!---End-header-->
 		<div class="top-blank"></div>
 
+		<!-- Left sidebar -->
  		<div class="sidebar">
 
- 		</div>	
+ 		</div>
 
+ 		<!-- Right main page -->
+ 		<div class="main">
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
@@ -80,6 +83,8 @@
 		<?php
 			}//while end
 		?>		
+		</div>
+		<!--End main page-->
 
 	</body>
 </html>

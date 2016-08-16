@@ -53,13 +53,19 @@ body {
   padding-top:50px;
 }
 /*---side bar---*/
-.sidebar{
-    float:left;
-    width: 10%;
+.sidebar {
+    position:fixed;
+    height:100%;
+    width: 100px;
+    float: left;
+    background-color: #ddd;
+    border: 1px solid #bbb;
 }
 
-
-/*-----lives----*/
+/*----main content---*/
+.main {
+  margin-left:110px;
+}
 div.content {
     padding-bottom: 10px;
     border: 1px solid #ccc;
