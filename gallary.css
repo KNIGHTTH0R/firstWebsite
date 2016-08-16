@@ -9,7 +9,7 @@ body {
 }
 .logo{
     float:left;
-    padding-left: 20px;  
+    padding-left: 40px;  
 }
 .logo img{
     height: 40px;
@@ -38,14 +38,14 @@ body {
     font-size: 25px;
     display:block;
     font-weight:bold;
-    color:#444;
+    color:#464547;
     padding:10px;
     text-decoration:none;
     text-transform:uppercase;
 }
 .top-nav ul li a:hover
 {
-    color: #f8aba6;
+    color:#973c3f;
 }
 
 /*-----lives----*/
