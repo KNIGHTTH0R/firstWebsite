@@ -45,8 +45,9 @@ body {
 {
     background-color:#ed1941;
 }
-.google_translate_element {
-    float:right;
+.translate {
+    position:fixed;
+    right: 0;
 }
 .top-blank {
   padding-top:50px;

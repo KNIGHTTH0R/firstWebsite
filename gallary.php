@@ -25,16 +25,11 @@
 				</div>
 			</div>
 			<!---End-top-menu-search-->
+
 		</div>
 		<!---End-header-->
 		<div class="top-blank"></div>
 
-		<div id="google_translate_element"></div><script type="text/javascript">
-		function googleTranslateElementInit() {
-		  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
-		}
-		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
- 		
  		<div class="sidebar">
 
  		</div>	
@@ -78,6 +73,15 @@
 		<?php
 			}//while end
 		?>
+
+		<!-- google translate -->
+        <div class="translate">
+	        <div id="google_translate_element"></div><script type="text/javascript">
+			function googleTranslateElementInit() {
+			  new google.translate.TranslateElement({pageLanguage: 'zh-CN'}, 'google_translate_element');
+			}
+			</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+	    </div>		
 
 	</body>
 </html>
