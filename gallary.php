@@ -10,7 +10,7 @@
 		<div class="header">
 			<!---start-logo-->
 			<div class="logo">
-				<a href="gallary.php"><img src="images/logo.png" title="Live is on"></a>
+				<a href="gallary.php"><img src="images/logo_a.png" title="Live is on"></a>
 			</div>
 			<!---End-logo-->
 			<!---start-top-menu-search-->

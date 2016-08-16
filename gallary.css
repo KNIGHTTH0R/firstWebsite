@@ -2,9 +2,13 @@ body {
     background-color: #eee;
 }
 /*----header----*/
+.header{
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
 .logo{
     float:left;
-    padding-left: 10px;  
+    padding-left: 20px;  
 }
 .logo img{
     height: 40px;
@@ -12,20 +16,35 @@ body {
 }
 .top-menu{
     float:right;
-    width: 90%;
+    width: 95%;
 }
 .top-nav{
     float:left;
 }
-.top-nav ul li{
-    display:inline-block;
+.top-nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
 }
-.top-nav ul li a{
-    color: #888;
-    display: block;
+.top-nav li
+{
+    float:left;
 }
-.top-nav ul li a:hover{
-    color: #000;
+.top-nav a
+{
+  font-size: 20px;
+    display:block;
+    width:100%;
+    font-weight:bold;
+    color:#333;
+    background-color:#ffffff;
+    padding:10px;
+}
+.top-nav ul li a:hover
+{
+    background-color:#7A991A;
 }
 
 /*-----lives----*/
