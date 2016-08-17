@@ -46,25 +46,25 @@ body {
     background-color:#ed1941;
 }
 .translate {
-    position:fixed;
+    position: fixed;
     right: 0;
 }
 .top-blank {
-  padding-top:50px;
+    padding-top: 40px;
 }
 /*---side bar---*/
 .sidebar {
-    position:fixed;
-    height:100%;
-    width: 100px;
+    position: fixed;
+    height: 100%;
+    width: 150px;
     float: left;
     background-color: #ddd;
-    border: 1px solid #bbb;
+    border-right: 1px solid #bbb;
 }
 
 /*----main content---*/
 .main {
-  margin-left:110px;
+    margin: 10px 160px;
 }
 div.content {
     padding-bottom: 10px;
