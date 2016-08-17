@@ -18,8 +18,7 @@ body {
     width: auto;   
 }
 .top-menu{
-    float:right;
-    width: 90%;
+    margin-left: 150px;
 }
 .top-nav{
     float:left;
@@ -37,7 +36,7 @@ body {
     font-size: 20px;
     display:block;
     color:#eee;
-    padding:10px;
+    padding:10px 20px 10px 20px;
     text-decoration:none;
     text-transform:uppercase;
 }
