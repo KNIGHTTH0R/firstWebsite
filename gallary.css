@@ -64,7 +64,7 @@ body {
 
 /*----main content---*/
 .main {
-    margin: 10px 160px;
+    margin: 10px 160px 0 0;
 }
 div.content {
     padding-bottom: 10px;
