@@ -55,11 +55,11 @@
 	    		<!-- use php to write a list -->
 	    		<?php
 		    		for ($i=0; $i<6; $i++) {  
-		    			echo '<li><a href="?cate='.$cates[i].'"';
-		        		if ($cate == $cates[i]) {
+		    			echo '<li><a href="?cate='.$cates[$i].'"';
+		        		if ($cate == $cates[$i]) {
 		        			echo " style='color:#eee; background-color:#2a5caa;'";
 		        		}
-		        		echo '>'.$names[i].'</a></li>';
+		        		echo '>'.$names[$i].'</a></li>';
 		        	}
 		        ?>
 		        <li><a href=""><?= $cate?></a></li>
