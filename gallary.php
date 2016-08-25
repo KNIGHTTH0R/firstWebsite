@@ -62,7 +62,7 @@
 		        		echo '>'.$names[$i].'</a></li>';
 		        	}
 		        ?>
-		        <li><a href=""><?= $cate?></a></li>
+		        <li><a href="">调试：<?= $cate?></a></li>
 		    </ul>
  		</div>
 
