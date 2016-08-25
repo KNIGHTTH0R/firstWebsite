@@ -11,6 +11,10 @@
 			include 'db.php';
 			$conn = dbConnect();
 			$cate = $_GET["cate"];
+			// default value
+			if ($cate == "") {
+				cate = "hs"
+			}
 		?>		
 		<!---start-header-->
 		<div class="header">
@@ -46,7 +50,13 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
-		        <li><a href="?cate=hs">炉石传说</a></li>
+		        <li><a href="?cate=hs"
+					<?php
+						if (cate == "hs") {
+							echo 'color:#eee; background-color:#2a5caa;';
+						}
+					?>
+		        	>炉石传说</a></li>
 		        <li><a href="?cate=lol">LOL</a></li>
 		        <li><a href="?cate=dota">Dota</a></li>
 		        <li><a href="?cate=ow">守望先锋</a></li>

@@ -78,8 +78,7 @@ body {
 }
 .sidebar a:hover
 {
-    color:#eee;
-    background-color:#2a5caa;
+    background-color:#bbb;
 }
 /*----main content---*/
 .main {
