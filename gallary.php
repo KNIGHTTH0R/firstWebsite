@@ -53,7 +53,7 @@
 		        <li><a href="?cate=hs"
 		        	<?php
 		        		if ($cate == "hs") {
-		        			echo " style='background-color:#555;'"
+		        			echo " style='background-color:#555;'";
 		        		}
 		        	?>
 		        	>炉石传说</a></li>
