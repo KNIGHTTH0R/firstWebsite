@@ -80,7 +80,7 @@
 		 	<div class="content">
 		    	<a target="_blank" href=<?= $row['link']?> title=<?='"'.$row['title'].'"'?>>
 		    		<div class="image-container">
-		     			<img src=<?= $row['img_url']?> onerror="this.src='images/blank.png'">
+		     			<img src=<?= $row['img_url']?> onerror="this.src='images/logo.png'">
 		     		</div>	
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
