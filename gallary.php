@@ -55,7 +55,8 @@
 			include 'db.php';
 			$conn = dbConnect();
 			$cate = $_GET["cate"];
-			echo $cate;<br>
+			echo $cate."<br>";
+
 
 			$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
 			$result = $conn->query($sql);
