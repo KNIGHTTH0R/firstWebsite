@@ -6,6 +6,12 @@
 		<link href="gallary.css" rel="stylesheet" type="text/css"  media="all" />
 	</head>
 	<body>
+		<!-- initial -->
+		<?php
+			include 'db.php';
+			$conn = dbConnect();
+			$cate = $_GET["cate"];
+		?>		
 		<!---start-header-->
 		<div class="header">
 			<!---start-logo-->
@@ -46,18 +52,14 @@
 		        <li><a href="?cate=ow">守望先锋</a></li>
 		        <li><a href="?cate=sc">星际争霸</a></li>
 		        <li><a href="?cate=dnf">DNF</a></li>
-		        <li><a href=""><?= $_GET["cate"]?></a></li>
+		        <li><a href=""><?= $cate?></a></li>
 		    </ul>
  		</div>
 
  		<!-- Right main page -->
  		<div class="main">
+
 		<?php
-			include 'db.php';
-			$conn = dbConnect();
-			$cate = $_GET["cate"];
-
-
 			$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
