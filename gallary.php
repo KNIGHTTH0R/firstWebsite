@@ -12,9 +12,9 @@
 			$conn = dbConnect();
 			$cate = $_GET["cate"];
 			// default value
-			// if ($cate == "") {
-			// 	$cate = "hs"
-			// }
+			if ($cate == "") {
+				$cate = "hs";
+			}
 		?>		
 		<!---start-header-->
 		<div class="header">
