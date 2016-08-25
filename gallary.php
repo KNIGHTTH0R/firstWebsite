@@ -41,12 +41,12 @@
  		<div class="sidebar">
 	    	<ul>
 		        <li><a href="?cate=hs">炉石传说</a></li>
-		        <li><a href="#">LOL</a></li>
-		        <li><a href="#">Dota</a></li>
-		        <li><a href="#">守望先锋</a></li>
-		        <li><a href="#">星际争霸</a></li>
-		        <li><a href="#">DNF</a></li>
-		        <li><a href="#"><?= $_GET["cate"]?></a></li>
+		        <li><a href="?cate=lol">LOL</a></li>
+		        <li><a href="?cate=dota">Dota</a></li>
+		        <li><a href="?cate=ow">守望先锋</a></li>
+		        <li><a href="?cate=sc">星际争霸</a></li>
+		        <li><a href="?cate=dnf">DNF</a></li>
+		        <li><a href=""><?= $_GET["cate"]?></a></li>
 		    </ul>
  		</div>
 
