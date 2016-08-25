@@ -46,7 +46,7 @@
 		        <li><a href="#">守望先锋</a></li>
 		        <li><a href="#">星际争霸</a></li>
 		        <li><a href="#">DNF</a></li>
-		        <li><a href="#"><?= $cate?></a></li>
+		        <li><a href="#"><?= $_GET["cate"]?></a></li>
 		    </ul>
  		</div>
 
