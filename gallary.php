@@ -50,11 +50,13 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
-		        <li><a href="?cate=hs"
+		        <li><a href="?cate=hs" 
 					<?php
-						// if (cate == "hs") {
-							echo htmlentities(" style='color:#eee; background-color:#2a5caa;'");
-						// }
+						if (cate == "hs") {
+					?>		
+						style='color:#eee; background-color:#2a5caa;'
+					<?php		
+						}
 					?>
 		        	>炉石传说</a></li>
 		        <li><a href="?cate=lol">LOL</a></li>
