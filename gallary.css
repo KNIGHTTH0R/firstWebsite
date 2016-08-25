@@ -70,7 +70,8 @@ body {
 .sidebar li{
 }
 .sidebar a{
-    font-weight:bold;
+    font-family: "Times New Roman";
+    font-weight: bold;
     font-size: 18px;
     display:block;
     color:#2a5caa;
