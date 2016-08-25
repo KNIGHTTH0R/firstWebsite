@@ -77,7 +77,7 @@
 
 		<div class="responsive">
 		 	<div class="content">
-		    	<a target="_blank" href=<?= $row['link']?>>
+		    	<a target="_blank" href=<?= $row['link']?> title=<?= $row['title']?>>
 		    		<div class="image-container">
 		     			<img src=<?= $row['img_url']?>>
 		     		</div>	
