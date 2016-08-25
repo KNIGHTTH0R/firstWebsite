@@ -15,6 +15,8 @@
 			if ($cate == "") {
 				$cate = "hs";
 			}
+			$cates=array("hs","lol","dota","ow","sc","dnf");
+			$names=array("炉石传说","LOL","Dota","守望先锋","星际争霸","DNF");
 		?>		
 		<!---start-header-->
 		<div class="header">
@@ -52,11 +54,11 @@
 	    	<ul>
 		        <li><a href="?cate=hs"
 		        	<?php
-		        		if ($cate == "hs") {
+		        		if ($cate == $cates[0]) {
 		        			echo " style='color:#eee; background-color:#2a5caa;'";
 		        		}
 		        	?>
-		        	>炉石传说</a></li>
+		        	><?= $names[0]?></a></li>
 		        <li><a href="?cate=lol">LOL</a></li>
 		        <li><a href="?cate=dota">Dota</a></li>
 		        <li><a href="?cate=ow">守望先锋</a></li>
