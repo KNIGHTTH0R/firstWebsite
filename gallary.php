@@ -40,7 +40,7 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
-		        <li><a href="?cate=ls">炉石</a></li>
+		        <li><a href="?cate=hs">炉石传说</a></li>
 		        <li><a href="#">LOL</a></li>
 		        <li><a href="#">Dota</a></li>
 		        <li><a href="#">守望先锋</a></li>
@@ -54,11 +54,13 @@
 		<?php
 			include 'db.php';
 			$conn = dbConnect();
+			$cate = $_GET["cate"];
+			echo $cate;<br>
 
 			$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
-		?> 		
+		?>
 
 		<div class="responsive">
 		 	<div class="content">
