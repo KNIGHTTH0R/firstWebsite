@@ -42,7 +42,7 @@ body {
     text-decoration:none;
     text-transform:uppercase;
 }
-.top-nav ul li a:hover
+.top-nav a:hover
 {
     background-color:#ed1941;
 }
@@ -62,7 +62,26 @@ body {
     background-color: #ddd;
     border-right: 1px solid #bbb;
 }
-
+.sidebar ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.sidebar li{
+}
+.sidebar a{
+    font-size: 20px;
+    display:block;
+    color:#eee;
+    padding:10px 20px 10px 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.sidebar a:hover
+{
+    background-color:#2222ee;
+}
 /*----main content---*/
 .main {
     margin: 10px 0 0 160px;
