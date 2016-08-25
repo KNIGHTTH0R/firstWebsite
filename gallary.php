@@ -46,6 +46,7 @@
 		        <li><a href="#">守望先锋</a></li>
 		        <li><a href="#">星际争霸</a></li>
 		        <li><a href="#">DNF</a></li>
+		        <li><a href="#"><?= $cate?></a></li>
 		    </ul>
  		</div>
 
@@ -55,7 +56,6 @@
 			include 'db.php';
 			$conn = dbConnect();
 			$cate = $_GET["cate"];
-			echo $cate."<br>";
 
 
 			$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
