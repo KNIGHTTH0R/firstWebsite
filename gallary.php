@@ -52,9 +52,10 @@
 	    	<ul>
 		        <li><a href="?cate=hs"
 		        	<?php
-		        		echo " style='background-color:#555;'"
+		        		if ($cate == "hs") {
+		        			echo " style='background-color:#555;'"
+		        		}
 		        	?>
-
 		        	>炉石传说</a></li>
 		        <li><a href="?cate=lol">LOL</a></li>
 		        <li><a href="?cate=dota">Dota</a></li>
