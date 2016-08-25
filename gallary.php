@@ -17,6 +17,7 @@
 			}
 			$cates=array("hs","lol","dota","ow","sc","dnf");
 			$names=array("炉石传说","LOL","Dota","守望先锋","星际争霸","DNF");
+			$webs=array("douyu"=>"斗鱼","huya"=>"虎牙","panda"=>"熊猫","zhanqi"=>"战旗","quanmin"=>"全民","huomao"=>"火猫","longzhu"=>"龙珠");
 		?>		
 		<!---start-header-->
 		<div class="header">
@@ -83,7 +84,7 @@
 		     		</div>	
 		    		<div class="text">
 						<div class="title"><?= $row['title']?></div>
-					    <div class="web"><?= $row['web']?></div>
+					    <div class="web"><?= $webs[$row['web']]?></div>
 					</div>
 					<div class="text">
 						<div class="zhubo"><?= $row['zhubo']?></div>
