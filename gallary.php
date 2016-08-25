@@ -39,16 +39,14 @@
 
 		<!-- Left sidebar -->
  		<div class="sidebar">
-		    <div class="left">
-		    	<ul>
-			        <li><a href="#">炉石</a></li>
-			        <li><a href="#">LOL</a></li>
-			        <li><a href="#">Dota</a></li>
-			        <li><a href="#">守望先锋</a></li>
-			        <li><a href="#">星际争霸</a></li>
-			        <li><a href="#">DNF</a></li>
-			    </ul>
-			</div>
+	    	<ul>
+		        <li><a href="#">炉石</a></li>
+		        <li><a href="#">LOL</a></li>
+		        <li><a href="#">Dota</a></li>
+		        <li><a href="#">守望先锋</a></li>
+		        <li><a href="#">星际争霸</a></li>
+		        <li><a href="#">DNF</a></li>
+		    </ul>
  		</div>
 
  		<!-- Right main page -->

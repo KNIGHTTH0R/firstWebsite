@@ -64,7 +64,6 @@ body {
 }
 .sidebar ul{
     list-style-type:none;
-    margin:0;
     padding:0;
     overflow:hidden;
 }
@@ -73,14 +72,15 @@ body {
 .sidebar a{
     font-size: 20px;
     display:block;
-    color:#eee;
+    color:#102b6a;
     padding:10px 20px 10px 20px;
     text-decoration:none;
     text-transform:uppercase;
 }
 .sidebar a:hover
 {
-    background-color:#2222ee;
+    color:#eee;
+    background-color:#102b6a;
 }
 /*----main content---*/
 .main {
