@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>直播信息汇总（测试版）</title>
 		<link href="gallary.css" rel="stylesheet" type="text/css"  media="all" />
+		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
 		<!-- initial -->
