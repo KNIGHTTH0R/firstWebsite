@@ -40,7 +40,7 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
-		        <li><a href="#">炉石</a></li>
+		        <li><a href="?cate=ls">炉石</a></li>
 		        <li><a href="#">LOL</a></li>
 		        <li><a href="#">Dota</a></li>
 		        <li><a href="#">守望先锋</a></li>
