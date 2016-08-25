@@ -13,7 +13,7 @@
 			$cate = $_GET["cate"];
 			// default value
 			if ($cate == "") {
-				cate = "hs"
+				$cate = "hs"
 			}
 		?>		
 		<!---start-header-->
