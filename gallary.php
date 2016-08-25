@@ -50,11 +50,11 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
-		        <li><a href="?cate=hs" 
+		        <li><a href="?cate=hs" style='color:#eee; background-color:#2a5caa;'
 					<?php
 						if (cate == "hs") {
 					?>		
-						style='color:#eee; background-color:#2a5caa;'
+						
 					<?php		
 						}
 					?>
