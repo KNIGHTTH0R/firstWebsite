@@ -52,18 +52,16 @@
 		<!-- Left sidebar -->
  		<div class="sidebar">
 	    	<ul>
+	    		<!-- use php to write a list -->
 	    		<?php
-	    			echo '<li><a href="?cate='.$cates[0].'"';
-	        		if ($cate == $cates[0]) {
-	        			echo " style='color:#eee; background-color:#2a5caa;'";
-	        		}
-	        		echo '>'.$names[0].'</a></li>';
+		    		for ($i=0; $i<6; $i++) {  
+		    			echo '<li><a href="?cate='.$cates[i].'"';
+		        		if ($cate == $cates[i]) {
+		        			echo " style='color:#eee; background-color:#2a5caa;'";
+		        		}
+		        		echo '>'.$names[i].'</a></li>';
+		        	}
 		        ?>
-		        <li><a href="?cate=lol">LOL</a></li>
-		        <li><a href="?cate=dota">Dota</a></li>
-		        <li><a href="?cate=ow">守望先锋</a></li>
-		        <li><a href="?cate=sc">星际争霸</a></li>
-		        <li><a href="?cate=dnf">DNF</a></li>
 		        <li><a href=""><?= $cate?></a></li>
 		    </ul>
  		</div>
