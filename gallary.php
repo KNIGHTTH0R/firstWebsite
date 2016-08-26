@@ -9,6 +9,8 @@
 	<body>
 		<!-- initial -->
 		<?php
+			// google analytics
+			include_once("analyticstracking.php");
 			include 'db.php';
 			$conn = dbConnect();
 			$cate = $_GET["cate"];
@@ -24,7 +26,7 @@
 		<div class="header">
 			<!---start-logo-->
 			<div class="logo">
-				<a href="#"><img src="images/logo_a.png" title="Live is on"></a>
+				<a href=""><img src="images/logo_a.png" title="Live is on"></a>
 			</div>
 			<!---End-logo-->
 			<!---start-top-menu-search-->
