@@ -34,7 +34,14 @@
 						<li><a href="">首页</a></li>
 						<li><a href="#">全部直播</a></li>
 						<li><a href="about.html">关于本站</a></li>
-						<li><a href="contact.html">联系我们</a></li>
+						<li><a href="contact.<html>
+						<head>
+							<title></title>
+						</head>
+						<body>
+						
+						</body>
+						</html>">联系我们</a></li>
 					</ul>
 				</div>
 			</div>
