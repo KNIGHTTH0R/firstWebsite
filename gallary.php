@@ -24,17 +24,17 @@
 		<div class="header">
 			<!---start-logo-->
 			<div class="logo">
-				<a href="gallary.php"><img src="images/logo_a.png" title="Live is on"></a>
+				<a href="#"><img src="images/logo_a.png" title="Live is on"></a>
 			</div>
 			<!---End-logo-->
 			<!---start-top-menu-search-->
 			<div class="top-menu">
 				<div class="top-nav">
 					<ul>
-						<li><a href="#">首页</a></li>
+						<li><a href="">首页</a></li>
 						<li><a href="#">全部直播</a></li>
-						<li><a href="#">分类</a></li>
-						<li><a href="#">联系我们</a></li>
+						<li><a href="about.html">关于本站</a></li>
+						<li><a href="contact.html">联系我们</a></li>
 					</ul>
 				</div>
 			</div>
