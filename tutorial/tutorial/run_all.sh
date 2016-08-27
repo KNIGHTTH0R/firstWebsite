@@ -6,6 +6,6 @@ scrapy crawl huya
 scrapy crawl douyu
 scrapy crawl panda
 scrapy crawl zhanqi
+scrapy crawl longzhu
 scrapy crawl quanmin
 scrapy crawl huomao
-scrapy crawl longzhu

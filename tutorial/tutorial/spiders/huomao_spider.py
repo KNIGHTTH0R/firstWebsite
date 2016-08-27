@@ -3,16 +3,14 @@ from tutorial.func import WebFunc
 from tutorial.items import ZhiboItem
 from scrapy_splash import SplashRequest
 
-class DouyuSpider(scrapy.Spider):
+class HuomaoSpider(scrapy.Spider):
     name = "huomao"
-    webFunc = WebFunc()
-    start_urls = [
-        "http://www.huomao.com/channel/ls"
-    ]
+    webFunc = WebFunc(name)
+    start_urls = webFunc.getURL()
 
     def start_requests(self):
         splash_args = {
-            'wait': 0.5,
+            'wait': 2.0, 'images' : 0
         }
         for url in self.start_urls:
             yield SplashRequest(url, self.parse, endpoint='render.html', args=splash_args)    
@@ -27,6 +25,6 @@ class DouyuSpider(scrapy.Spider):
             item['img_url'] = sel.xpath('a//img/@data-original').extract()[0]
             item['zhubo'] = sel.xpath('a/p/span/text()').extract()[0]
             item['web'] = "huomao"
-            item['cate'] = "ls"
+            item['cate'] = self.webFunc.getCate(response.url)
             # item['active'] = True
             yield item
