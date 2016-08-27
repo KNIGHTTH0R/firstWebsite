@@ -17,14 +17,15 @@ class HuomaoSpider(scrapy.Spider):
 
     def parse(self, response):
         for sel in response.xpath('//div[@class = "list-smallbox" and a/div[@class="live-dnf"]]'):
-            item = ZhiboItem()
-            item['title'] = sel.xpath('a//em/text()').extract()[0]
-            item['link'] = "http://www.huomao.com" + sel.xpath('a/@href').extract()[0]
-            num = sel.xpath('a//em/span/text()').extract()[0]
-            item['view'] = self.webFunc.getNum(num)
-            item['img_url'] = sel.xpath('a//img/@data-original').extract()[0]
-            item['zhubo'] = sel.xpath('a/p/span/text()').extract()[0]
-            item['web'] = "huomao"
-            item['cate'] = self.webFunc.getCate(response.url)
-            # item['active'] = True
-            yield item
+            num = self.webFunc.getNum(sel.xpath('a//em/span/text()').extract()[0])
+            if num >= self.webFunc.limit:
+                item = ZhiboItem()
+                item['title'] = sel.xpath('a//em/text()').extract()[0]
+                item['link'] = "http://www.huomao.com" + sel.xpath('a/@href').extract()[0]
+                item['view'] = num
+                item['img_url'] = sel.xpath('a//img/@data-original').extract()[0]
+                item['zhubo'] = sel.xpath('a/p/span/text()').extract()[0]
+                item['web'] = "huomao"
+                item['cate'] = self.webFunc.getCate(response.url)
+                # item['active'] = True
+                yield item
