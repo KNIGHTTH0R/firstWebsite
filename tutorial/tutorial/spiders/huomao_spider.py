@@ -19,7 +19,7 @@ class HuomaoSpider(scrapy.Spider):
         for sel in response.xpath('//div[@class = "list-smallbox" and a/div[@class="live-dnf"]]'):
             item = ZhiboItem()
             item['title'] = sel.xpath('a//em/text()').extract()[0]
-            item['link'] = "http://www.huomao.com/" + sel.xpath('a/@href').extract()[0]
+            item['link'] = "http://www.huomao.com" + sel.xpath('a/@href').extract()[0]
             num = sel.xpath('a//em/span/text()').extract()[0]
             item['view'] = self.webFunc.getNum(num)
             item['img_url'] = sel.xpath('a//img/@data-original').extract()[0]
