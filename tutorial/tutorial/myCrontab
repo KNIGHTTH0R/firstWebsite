@@ -1,2 +1,2 @@
-# do the scrapy every 5 minutes
-*/5 * * * * sh /var/www/html/firstWebsite/tutorial/tutorial/run_all.sh >> /var/www/html/firstWebsite/tutorial/tutorial/feedback.log 2>&1
+# do the scrapy every 2 minutes
+*/2 * * * * sh /var/www/html/firstWebsite/tutorial/tutorial/run_all.sh >> /var/www/html/firstWebsite/tutorial/tutorial/feedback.log 2>&1

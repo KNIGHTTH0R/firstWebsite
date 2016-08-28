@@ -3,7 +3,7 @@ class WebFunc():
     urls = {
         'douyu' : ["How", "LOL", "DOTA2", "Overwatch", "SC", "DNF"],
         'huomao' : ["ls", "lol", "dota2", "Overwatch", "sc2", "DNF"],
-        'huya' : ["hearthstone", "lol", "dota2", "2174", "starcraft", "dnf"],
+        'huya' : ["hearthstone", "", "dota2", "2174", "starcraft", "dnf"],
         'longzhu' : ["hs", "lol", "", "ow", "sc", "dnf"],
         'panda' : ["hearthstone", "lol", "dota2", "overwatch", "starcraft", "dnf"],
         'quanmin' : ["hearthstone", "lol", "dota2", "overwatch", "", "dnf"],
