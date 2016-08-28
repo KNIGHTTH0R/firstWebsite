@@ -34,7 +34,7 @@
 				<div class="top-nav">
 					<ul>
 						<li><a href="">首页</a></li>
-						<li><a href="#">全部直播</a></li>
+						<li><a href="#">热门直播</a></li>
 						<li><a href="about.html">关于本站</a></li>
 						<li><a href="contact.html">联系我们</a></li>
 					</ul>
@@ -73,7 +73,7 @@
  		<div class="main">
 
 		<?php
-			$sql = "SELECT * FROM HearthStones WHERE view > 100 ORDER BY view DESC;";
+			$sql = "SELECT * FROM HearthStones WHERE cate =".$cate." ORDER BY view DESC;";
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
 		?>
