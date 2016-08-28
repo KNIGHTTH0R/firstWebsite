@@ -73,7 +73,7 @@
  		<div class="main">
 
 		<?php
-			$sql = "SELECT * FROM HearthStones WHERE cate =\'".$cate."\' ORDER BY view DESC;";
+			$sql = "SELECT * FROM HearthStones WHERE cate ='".$cate."' ORDER BY view DESC;";
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
 		?>
