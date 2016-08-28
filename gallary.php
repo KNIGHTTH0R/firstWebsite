@@ -34,7 +34,7 @@
 				<div class="top-nav">
 					<ul>
 						<li><a href="">首页</a></li>
-						<li><a href="?cate='hot'">热门直播</a></li>
+						<li><a href="?cate=hot">热门直播</a></li>
 						<li><a href="about.html">关于本站</a></li>
 						<li><a href="contact.html">联系我们</a></li>
 					</ul>
