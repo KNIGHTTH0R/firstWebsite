@@ -24,8 +24,10 @@ class MysqlPipeline(object):
 		self.db = MySQLdb.connect("localhost","root","root","zhibo",charset ='utf8')
 		self.cursor = self.db.cursor()
 	def process_item(self, item, spider):
-		self.cursor.execute("INSERT INTO HearthStones(title, link, view, img_url, zhubo, web, cate) \
-         		  			VALUES ('%s', '%s', '%d', '%s', '%s', '%s', '%s')" % (item['title'], item['link'], item['view'], item['img_url'], item['zhubo'], item['web'], item['cate']))
+        item['title'] = item['title'].replace("'", "\\'")
+        item['zhubo'] = item['zhubo'].replace("'", "\\'")
+        sql = "INSERT INTO HearthStones(title, link, view, img_url, zhubo, web, cate) VALUES ('%s', '%s', '%d', '%s', '%s', '%s', '%s')"
+        self.cursor.execute(sql % (item['title'], item['link'], item['view'], item['img_url'], item['zhubo'], item['web'], item['cate']))
 		self.db.commit()
 	def spider_closed(self, spider):
 		self.db.close()
