@@ -26,14 +26,14 @@
 		<div class="header">
 			<!---start-logo-->
 			<div class="logo">
-				<a href=""><img src="images/logo_a.png" title="Live is on"></a>
+				<a href="http://wwei.site"><img src="images/logo_a.png" title="Live is on"></a>
 			</div>
 			<!---End-logo-->
 			<!---start-top-menu-search-->
 			<div class="top-menu">
 				<div class="top-nav">
 					<ul>
-						<li><a href="">首页</a></li>
+						<li><a href="http://wwei.site">首页</a></li>
 						<li><a href="?cate=hot">热门直播</a></li>
 						<li><a href="about.html">关于本站</a></li>
 						<li><a href="contact.html">联系我们</a></li>
