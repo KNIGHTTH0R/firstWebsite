@@ -1,19 +1,11 @@
 import scrapy
 from tutorial.func import WebFunc
 from tutorial.items import ZhiboItem
-from scrapy_splash import SplashRequest
 
 class HuyaSpider(scrapy.Spider):
     name = "huya"
     webFunc = WebFunc(name)
     start_urls = webFunc.getURL()
-
-    def start_requests(self):
-        splash_args = {
-            'wait': 2.0, 'images' : 0
-        }
-        for url in self.start_urls:
-            yield SplashRequest(url, self.parse, endpoint='render.html', args=splash_args)
 
     def parse(self, response):
         for sel in response.xpath('//div[@class = "video-wrap"]//ul/li'):
