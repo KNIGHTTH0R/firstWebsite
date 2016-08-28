@@ -74,12 +74,12 @@
 
 		<?php
 			$sql = ""
-			if ($cate == "hot") {
-				$sql = "SELECT * FROM HearthStones WHERE view > 50000 ORDER BY view DESC;";
-			}
-			else {
+			// if ($cate == "hot") {
+			// 	$sql = "SELECT * FROM HearthStones WHERE view > 50000 ORDER BY view DESC;";
+			// }
+			// else {
 				$sql = "SELECT * FROM HearthStones WHERE cate ='".$cate."' ORDER BY view DESC;";
-			}			
+			// }			
 			$result = $conn->query($sql);
 			while($row = $result->fetch_assoc()) {			
 		?>
