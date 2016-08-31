@@ -1,21 +1,21 @@
 class WebFunc():
-    cate = ["hs", "lol", "dota", "ow", "sc", "dnf"]
+    cate = ["hs", "lol", "dota", "ow", "sc", "dnf", "girl"]
     urls = {
-        'douyu' : ["How", "LOL", "DOTA2", "Overwatch", "SC", "DNF"],
-        'huomao' : ["ls", "lol", "dota2", "Overwatch", "sc2", "DNF"],
-        'huya' : ["hearthstone", "", "dota2", "2174", "starcraft", "dnf"],
-        'longzhu' : ["hs", "lol", "", "ow", "sc", "dnf"],
-        'panda' : ["hearthstone", "lol", "dota2", "overwatch", "starcraft", "dnf"],
-        'quanmin' : ["hearthstone", "lol", "dota2", "overwatch", "", "dnf"],
-        'zhanqi' : ["chns/blizzard/how", "games/lol", "games/dota2", "chns/blizzard/watch", "chns/blizzard/sc2", "games/dnf"]
+        'douyu' : ["How", "LOL", "DOTA2", "Overwatch", "SC", "DNF", "yz"],
+        'huomao' : ["ls", "lol", "dota2", "Overwatch", "sc2", "DNF", "ylxx"],
+        'huya' : ["hearthstone", "", "dota2", "2174", "starcraft", "dnf", "xingxiu"],
+        'longzhu' : ["hs", "lol", "", "ow", "sc", "dnf", "lzxx"],
+        'panda' : ["hearthstone", "lol", "dota2", "overwatch", "starcraft", "dnf", "yzdr"],
+        'quanmin' : ["heartstone/list.json", "lol/list.json", "dota2/list.json", "overwatch/list.json", "", "dnf/list.json", "beauty/list.json"],
+        'zhanqi' : ["chns/blizzard/how", "games/lol", "games/dota2", "chns/blizzard/watch", "chns/blizzard/sc2", "games/dnf", ""]
     }
     prefix = {
         'douyu' : "http://www.douyu.com/directory/game/",
-        'huomao' : "http://www.huomao.com/channel/",
+        'huomao' : "http://www.huomao.com/channels/channel.json?game_url_rule=",
         'huya' : "http://www.huya.com/g/",
         'longzhu' : "http://longzhu.com/channels/",
         'panda' : "http://www.panda.tv/cate/",
-        'quanmin' : "http://www.quanmin.tv/game/",
+        'quanmin' : "http://www.quanmin.tv/json/categories/",
         'zhanqi' : "http://www.zhanqi.tv/"
     }
     web_name = ''
