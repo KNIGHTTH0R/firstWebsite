@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>直播信息汇总（测试版）</title>
+		<meta name="keywords" content="直播信息汇总,直播汇总,直播整合,直播平台整合,直播信息整合,直播综合,直播综合平台,全部直播">
+		<meta name="description" content="直播信息汇总，整合斗鱼、虎牙、熊猫、战旗、全民、火猫、龙珠七大直播平台">
+		<title>直播信息汇总</title>
 		<link href="gallary.css" rel="stylesheet" type="text/css"  media="all" />
 		<link rel="shortcut icon" href="favicon.ico">
 	</head>
