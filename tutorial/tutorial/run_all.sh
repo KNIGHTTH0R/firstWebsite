@@ -11,3 +11,4 @@ scrapy crawl quanmin
 scrapy crawl huomao
 scrapy crawl huya_lol
 scrapy crawl zhanqi_girl
+scrapy crawl twitch
