@@ -7,16 +7,18 @@ class WebFunc():
         'longzhu' : ["hs", "lol", "", "ow", "sc", "dnf", "lzxx"],
         'panda' : ["hearthstone", "lol", "dota2", "overwatch", "starcraft", "dnf", "yzdr"],
         'quanmin' : ["heartstone/list.json", "lol/list.json", "dota2/list.json", "overwatch/list.json", "", "dnf/list.json", "beauty/list.json"],
-        'zhanqi' : ["chns/blizzard/how", "games/lol", "games/dota2", "chns/blizzard/watch", "chns/blizzard/sc2", "games/dnf", ""]
+        'zhanqi' : ["chns/blizzard/how", "games/lol", "games/dota2", "chns/blizzard/watch", "chns/blizzard/sc2", "games/dnf", ""],
+        'twitch' : ["Hearthstone%3A+Heroes+of+Warcraft", "League+of+Legends", "Dota+2", "Overwatch", "StarCraft+II", "Dungeon+Fighter+Online", ""]
     }
     prefix = {
-        'douyu' : "http://www.douyu.com/directory/game/",
+        'douyu' : "https://www.douyu.com/directory/game/",
         'huomao' : "http://www.huomao.com/channels/channel.json?game_url_rule=",
         'huya' : "http://www.huya.com/g/",
         'longzhu' : "http://longzhu.com/channels/",
         'panda' : "http://www.panda.tv/cate/",
         'quanmin' : "http://www.quanmin.tv/json/categories/",
-        'zhanqi' : "http://www.zhanqi.tv/"
+        'zhanqi' : "http://www.zhanqi.tv/",
+        'twitch' : "https://streams.twitch.tv/kraken/streams?limit=60&offset=0&game="
     }
     web_name = ''
     limit = 100
