@@ -154,6 +154,7 @@ div.image-container {
 }
 .web{
     float: right;
+    text-align:right;
     color: #3333dd;
     width: 20%;
     overflow: hidden;
